@@ -40,7 +40,7 @@ function abc(x)
 	</div>
 	<br>
 
-	<div class = "container border" style="background-color:">
+	<div class = "container border" style="background-color: white">
 		<center>
 		<div class = "row">
 		<div class = "col-lg-6 col-md-6 col-sm-12 col-xs-12">
@@ -103,7 +103,7 @@ function abc(x)
 	<div class = "col-lg-6 col-md-6 col-sm-12 col-xs-12">
 	
 		<h2><%=  l.getPname()%></h2><br>
-		<h3> ₹ <%=  l.getPprice() %> </h3><br><%} %>
+		<h3> RM <%=  l.getPprice() %> </h3><br><%} %>
 		<p>Lorem ipsum dolor sit amet, consecte adipisicing elit, 
 		sed do eiusmll tempor incididunt ut labore et dolore magna 
 		aliqua. Ut enim ad mill veniam, quis nostrud exercitation 

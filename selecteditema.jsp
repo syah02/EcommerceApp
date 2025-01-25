@@ -83,7 +83,7 @@ function abc(x)
 						
 								<tr>
 									<th>Price: </th>
-									<th>₹ <%=l.getPprice() %> </th>
+									<th>RM <%=l.getPprice() %> </th>
 								</tr>
 					
 								<tr>
@@ -92,7 +92,7 @@ function abc(x)
 								</tr>
 
 								<tr>
-							<th style='text-align: center' colspan='2' align='center' bgcolor='#D6EEEE'><a href='addtocartnulla?id=<%=l.getBname()%>&ie=<%=l.getCname()%>&ig=<%=l.getPname() %>&ih=<%=l.getPprice()%>&ii=<%=l.getPquantity()%>&ij=<%=l.getPimage()%>'>Add To Cart</th>
+							<th style='text-align: center' colspan='2' align='center' bgcolor='#D6EEEE'><a class="add-to-cart-btn" href='addtocartnulla?id=<%=l.getBname()%>&ie=<%=l.getCname()%>&ig=<%=l.getPname() %>&ih=<%=l.getPprice()%>&ii=<%=l.getPquantity()%>&ij=<%=l.getPimage()%>'>Add To Cart</th>
 
 								</tr>
 				
@@ -106,7 +106,7 @@ function abc(x)
 	<div class = "col-lg-6 col-md-6 col-sm-12 col-xs-12">
 	
 		<h2><%=  l.getPname()%></h2><br>
-		<h3> ₹ <%=  l.getPprice() %> </h3><br><%} %>	
+		<h3> RM <%=  l.getPprice() %> </h3><br><%} %>	
 		<p>Lorem ipsum dolor sit amet, consecte adipisicing elit, 
 		sed do eiusmll tempor incididunt ut labore et dolore magna 
 		aliqua. Ut enim ad mill veniam, quis nostrud exercitation 
@@ -135,6 +135,22 @@ function abc(x)
 	
 	
 	</body>
+
+	<style>
+		.add-to-cart-btn {
+			text-decoration: none;
+			padding: 5px;
+			border-radius: 10px;
+		}
+
+		.add-to-cart-btn:hover {
+			background-color: #fc9900;
+			color: #fff;
+			transition: 0.3s ease-out;
+		}
+
+	</style>
+
 	</table>
 
 </center>

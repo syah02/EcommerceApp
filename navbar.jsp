@@ -1,6 +1,10 @@
 <%@ include file="cartnullqty.jsp" %>
 	
-	<div style='margin-left:50% '>
+	<div style='margin-top: 20px;
+	display: flex;
+	justify-content: space-around;
+	align-items: flex-start;
+	 '>
 	
 <b>	<a href="cartnull.jsp" class="w3-bar-item w3-button" ><img src = images/cart.png height=40px alt=Cart></a>
 
@@ -11,7 +15,7 @@
   background-color: red;
   border-radius: 50%;
   display: inline-block"><b style="color:white"><center><%=tqty %></center></b></span></b>
-	</b>	
+	</b>
 	
 	<a href="customer_reg.jsp" class="w3-bar-item w3-button"><b>Customer Registration</b></a>
 	

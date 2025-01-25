@@ -8,7 +8,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>Ecommerce App</title>
 <link rel="stylesheet" href = "images/bootstrap.css">
 
 <link rel="stylesheet" href="Css/w3.css">
@@ -48,6 +48,7 @@ body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
         
         div.scrollmenu b:hover {
           background-color: #777;
+          transition: ease 0.3s;
         }
         
         
@@ -194,7 +195,7 @@ function showSlides() {
 					<a href = 'selecteditem.jsp?Pn=<%=v.getPimage()%>'> <img src =' images/<%= v.getPimage() %>' height = 150px weight = 150px></a>
 				</th></tr><br>
 				<tr style='background-color: #ebe9eb'><th style='text-align: center'>
-					<a href = 'selecteditem.jsp?Pn=<%=v.getPimage()%>'> <%= v.getBname()%> <%= v.getPname()%></a>
+					<a style="text-decoration: none;" href = 'selecteditem.jsp?Pn=<%=v.getPimage()%>'> <%= v.getBname()%> <%= v.getPname()%></a>
 				</th></tr>
 			</table>	
 		</center>
